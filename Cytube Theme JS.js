@@ -8,8 +8,8 @@ if (!this[CHANNEL.name])
     this[CHANNEL.name] = {};
 // -- The Module Library
 window[CHANNEL.name].sequenceList = {
-	'layout':      { active: 1, rank: -1, url: "//cdn.jsdelivr.net/gh/superscoops/miimers@master/channelbase.js",              callback: true },
-    'channel':      { active: 1, rank: -1, url: "//cdn.jsdelivr.net/gh/superscoops/miimers@master/enhance.js",              callback: true },
+	'layout':      { active: 1, rank: -1, url: "//cdn.jsdelivr.net/gh/superscoops/miimers@1.01/channelbase.js",              callback: true },
+    'channel':      { active: 1, rank: -1, url: "//cdn.jsdelivr.net/gh/superscoops/miimers@1.01/enhance.js",              callback: true },
 };
 
 window[CHANNEL.name].sequencePrev = window[CHANNEL.name].sequencePrev || "";
@@ -45,6 +45,6 @@ window[CHANNEL.name].sequencerLoader = function (){
 };window[CHANNEL.name].sequencerLoader()
 
 
-$('head').append("<link rel='stylesheet' href='//cdn.jsdelivr.net/gh/superscoops/miimers@master/base.css' />");
+$('head').append("<link rel='stylesheet' href='//cdn.jsdelivr.net/gh/superscoops/miimers@1.01/base.css' />");
 $(".navbar-brand").text("/mii/ movie night");
 $(".navbar-brand").removeAttr("href");
