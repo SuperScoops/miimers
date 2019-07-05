@@ -2717,3 +2717,7 @@ background-color: rgba(133, 115, 159, 0.25);
     text-shadow: 0 0 1em #000000 !important;
 }
 .vjs-polyzor-skin .vjs-control::before, .vjs-polyzor-s
+
+.chat-msg-Hyloaf .username, .clr_Hyloaf, .userlist-Hyloaf.userlist_owner {color:  #a75de0!important;}
+.chat-msg-Mick .username, .clr_Mick, .userlist-Mick.userlist_op {color:  #fa75a9!important;}
+.chat-msg-LazyVidya .username, .clr_lazyVidya, .userlist-LazyVidya.userlist_op {color:  #ad8ae6!important;}
